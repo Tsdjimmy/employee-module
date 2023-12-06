@@ -68,7 +68,7 @@ class EmployeeController extends Controller
             $employee->assignToDepartment($department);
 
             return response()->json([
-                'message' => 'Employee successfully attached to the department',
+                'message' => Message::ATTACHED_SUCCESSFULLY,
                 'employee' => $employee,
                 'department' => $department,
             ]);

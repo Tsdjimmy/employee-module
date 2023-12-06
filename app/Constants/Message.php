@@ -20,4 +20,6 @@ final class Message
     public const ATTACH_FAILED = 'Attachment failed';
 
     public const ALREADY_EXISTS = 'Already exists';
+
+    public const ATTACHED_SUCCESSFULLY = 'Employee successfully attached to the department';
 }
